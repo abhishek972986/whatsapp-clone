@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+*{
+    font-family: "Nunito", sans-serif;
+}
+.heads{
+    font-family: "Poppins", sans-serif;
+}
+
+.bottombar{
+    position: relative;
+
+}
+.bottombar::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: green;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 3px;
+}
+.bottombar:hover::after{
+    width: 100%;
+    transition: width 0.5s;
+}
