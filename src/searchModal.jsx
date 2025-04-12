@@ -3,7 +3,7 @@ import { FaSearch } from "react-icons/fa";
 import { FaXmark } from "react-icons/fa6";
 import { RiSearchLine } from "react-icons/ri";
 import defaultAvatar from "./assests/default.jpg";
-import { addDoc, collection, getDocs, query, where } from "firebase/firestore";
+import {  collection, getDocs, query, where } from "firebase/firestore";
 import { db } from "./firebase/firebase";
 
 const SearchModal = ({ startChat, setOpenmodel }) => {

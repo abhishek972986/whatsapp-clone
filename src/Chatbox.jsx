@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import background from './assests/background.png';
 import defaulter from './assests/default.jpg';
 import { IoSend } from "react-icons/io5";
@@ -10,7 +10,7 @@ import {
   getDocs,
   addDoc,
   onSnapshot,
-  doc,
+  
   orderBy
 } from 'firebase/firestore';
 import { db } from './firebase/firebase';
